@@ -1,12 +1,5 @@
 # Ragnarök
 
-[![PyPI](https://img.shields.io/pypi/v/pyragnarok?color=brightgreen)](https://pypi.org/project/pyragnarok/)
-[![Downloads](https://static.pepy.tech/personalized-badge/pyragnarok?period=total&units=international_system&left_color=grey&right_color=brightgreen&left_text=downloads)](https://pepy.tech/project/pyragnarok)
-[![Downloads](https://static.pepy.tech/personalized-badge/pyragnarok?period=week&units=international_system&left_color=grey&right_color=brightgreen&left_text=downloads/week)](https://pepy.tech/project/pyragnarok)
-<!-- [![Generic badge](https://img.shields.io/badge/arXiv-2309.15088-red.svg)](https://arxiv.org/abs/2309.15088) -->
-[![LICENSE](https://img.shields.io/badge/license-Apache-blue.svg?style=flat)](https://www.apache.org/licenses/LICENSE-2.0)
-
-
 Ragnarök is a battleground for the best retrieval-augmented generation (RAG) models!
 
 
@@ -22,13 +15,12 @@ conda activate ragnarok
 pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118 # For CUDA 11.8
 pip install -r requirements.txt
 ```
+### Setup Retrieval Results
 
-### PyPI Installation
+Create a `retrieve_results` folder in the main directory. You can either:
 
-```bash
-pip install pyragnarok
-```
-
+1. Download the data from this [link](https://github.com/castorini/ragnarok_data/tree/main/retrieve_results) and place it in the `retrieve_results` folder.
+2. Or, place your own retrieval results in the `retrieve_results` folder.
 
 ## RAG
 
