@@ -22,6 +22,18 @@ Create a `retrieve_results` folder in the main directory. You can either:
 1. Download the data from this [link](https://github.com/castorini/ragnarok_data/tree/main/retrieve_results) and place it in the `retrieve_results` folder.
 2. Or, place your own retrieval results in the `retrieve_results` folder.
 
+### Configuring the Environment
+
+Create a `.env.local` file using `vi`:
+
+```bash
+vi .env.local
+```
+
+Add the following line to the file, replacing `<api key>` with your actual OpenAI API key:
+```OPEN_AI_API_KEY=<api key>```
+
+
 ## RAG
 
 We have a wide range of models supported by Ragnarök.
