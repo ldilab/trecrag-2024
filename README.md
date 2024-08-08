@@ -1,5 +1,7 @@
 ## Datasets
 https://huggingface.co/datasets/LDI-lab/trec-rag-2024
+### File name
+{first stage ranker name}.{second stage ranker name: if only reranked}.{top100/top1000}.{dataset name}.jsonl
 ### format
 `bm25_score` is just a key indicating score.
 `qrels' filled up if available.
