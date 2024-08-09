@@ -178,3 +178,4 @@ docs/retrieval/researgy.sh
 results/
 nuggetized_results/
 pool_results/
+augmented_generation/src/ragnarok/evaluate/nuggets/

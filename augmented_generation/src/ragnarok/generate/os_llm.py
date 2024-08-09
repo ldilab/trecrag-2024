@@ -76,7 +76,7 @@ class OSLLM(LLM):
                 download_dir=os.getenv("HF_HOME"),
                 enforce_eager=False,
                 tensor_parallel_size=num_gpus,
-                max_model_len=111264,
+                # max_model_len=111264,
             )
             self._tokenizer = self._llm.get_tokenizer()
         except:
